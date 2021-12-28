@@ -1,0 +1,32 @@
+.subject .inputbox {
+  text-align: center;
+  width: 10%;
+  padding: 20px 0;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px aliceblue;
+  outline: none;
+  background: transparent;
+}
+
+.subject .AddMarks_button {
+  font-size: large;
+  border-radius: 3px;
+}
+
+.subject .input_search {
+  width: 150px;
+  border-style: none;
+  font-size: 18px;
+  outline: none;
+  border-radius: 3px;
+  background-color: aliceblue;
+}
+.input_search::placeholder {
+  color: rgba(5, 5, 5, 0.658);
+  font-size: 18px;
+  outline: none;
+  font-weight: 100;
+}
