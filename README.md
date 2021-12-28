@@ -1,14 +1,5 @@
 ABOUT
-
-Student Result Management System that is reponsible for managing result of all student.
-Having admin and student view.
-admin view you have authentication so that only authorize person can ascess it.
-admin have all control over this system.
-Add student to database of result management system.
-Add result to database for particular student
-Add New course if Any New course introduce to College.
-Student only can see there result by just enter there university rollno.
-I have Attach scrrenshot plz go through it.
+Student Result Management System that is responsible for managing the results of all students. Having admin and student view. admin view you have authentication so that only authorized person can access it. admin has all control over this system. Add a student to a database of the result management system. Add results to the database for a particular student Add New course if Any New course introduces to College. Student only can see their result by just entering their university roll no. I have attached screenshots plz go through them.
 
 
 
