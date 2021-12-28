@@ -1,3 +1,20 @@
+ABOUT
+
+Student Result Management System that is reponsible for managing result of all student.
+Having admin and student view.
+admin view you have authentication so that only authorize person can ascess it.
+admin have all control over this system.
+Add student to database of result management system.
+Add result to database for particular student
+Add New course if Any New course introduce to College.
+Student only can see there result by just enter there university rollno.
+I have Attach scrrenshot plz go through it.
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
