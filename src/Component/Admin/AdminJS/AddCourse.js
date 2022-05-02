@@ -18,7 +18,7 @@ function AddCourse() {
   let addFormFields = () => {
     setFormValues([
       ...formValues,
-      { course: "", subject: "", subjectcode: "Hello" },
+      { course: "", subject: "", subjectcode: "" },
     ]);
   };
 
