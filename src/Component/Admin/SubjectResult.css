@@ -1,0 +1,21 @@
+.subject_result{
+    width: 100%;
+    margin: auto;
+}
+.subjectResult_form{
+    width: 30%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.marks_Inputbox{
+    width: 100%;
+    text-align: center;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}

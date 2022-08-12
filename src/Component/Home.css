@@ -1,0 +1,17 @@
+ .home {
+     object-fit: cover;
+     width: 100vw;
+     height: 100vh;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -2;
+ }
+ .title{
+     position: relative;
+     height: 90vh;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }

@@ -5,11 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-image: url("../src/334612.webp"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background: rgb(0,30,36);
+  background: linear-gradient(90deg, rgba(0,30,36,1) 23%, rgba(35,9,121,1) 76%, rgba(6,40,82,1) 99%);
 }
 
 code {

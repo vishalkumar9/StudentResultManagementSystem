@@ -1,9 +1,15 @@
-import { useState } from "react";
+import {useContext, useState} from "react";
 import CreateResultTable from "./CreateResultTable.js";
 import Table from "react-bootstrap/Table";
 import { getDatabase, ref, set, get, child } from "firebase/database";
 import app from "../../../firebase.js";
+import {AuthContext} from "../../auth-context";
+import "../StudentCss/StudentView.css"
+
 function StudentView(props) {
+
+  const Authc = useContext(AuthContext);
+
   console.log(props.res);
   const keys = Object.keys(props.res[0]);
   const [ResultArray, setNewResultArray] = useState([]);
@@ -14,7 +20,7 @@ function StudentView(props) {
     e.preventDefault();
     console.log(e.target.name);
     const db = ref(getDatabase(app));
-    get(child(db, `2014944/result/${e.target.name}/`))
+    get(child(db, `${Authc.userId}/result/${e.target.name}/`))
       .then((snapshot) => {
         if (snapshot.exists()) {
           // console.log(snapshot.val());
@@ -30,8 +36,8 @@ function StudentView(props) {
   };
 
   return (
-    <div>
-      <Table stripped bordered hover size="sm">
+    <div className="result_table">
+      <Table stripped bordered hover size="sm" style={{color : "aliceblue"}}>
         <thead>
           <tr>
             <th>Semester</th>

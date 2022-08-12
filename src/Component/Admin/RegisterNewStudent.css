@@ -1,0 +1,9 @@
+.reg{
+    padding-top: 30px;
+    width: 50%;
+    margin: auto;
+    color: aliceblue;
+}
+.reg img{
+    max-width: 100%;
+}

@@ -1,10 +1,8 @@
 import "../../../../node_modules/bootstrap/dist/css/bootstrap.css";
 import Table from "react-bootstrap/Table";
+import "../StudentCss/StudentView.css"
 function CreateResultTable(props) {
-  //   console.log(props.ResultData);
   const Array = props.ResultData[0];
-  //   console.log(Array);
-  //   const Keys1 = Object.keys(props.ResultData[0]);
   const Mid = Array.Mid;
   console.log(Mid);
   const End = Array.End;
@@ -14,9 +12,9 @@ function CreateResultTable(props) {
   const Keys2 = Object.keys(Array.End);
   console.log(Keys2);
   return (
-    <div>
+    <div className="table_content" style={{color : "aliceblue"}}>
       <h1>RESULT</h1>
-      <Table stripped bordered hover size="sm">
+      <Table stripped bordered hover size="sm" style={{color : "aliceblue"}}>
         <thead>
           <tr>
             <th>Subject Code</th>
